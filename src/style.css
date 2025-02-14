@@ -524,7 +524,7 @@ html {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px #53606c !important;
+  box-shadow: 0 4px 5px 3px #e2e2e2 !important;
   color: #414141 !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -534,7 +534,7 @@ html {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px #53606c !important;
+  box-shadow: 0 4px 4px 5px #d8dadd !important;
 }
 
 .blog-card {
@@ -570,13 +570,11 @@ html {
 
 .card-img-top {
   padding: 20px !important;
-  opacity: 0.8 !important;
   border-radius: 10px !important;
 }
 
 .blog-img {
   padding: 0px !important;
-  opacity: 0.8 !important;
   border-radius: 0px !important;
 }
 
@@ -701,15 +699,39 @@ html {
   text-align: center; /* Center the description */
 }
 /* Responsive Design for Smaller Screens */
+@media (max-width: 1200px) {
+  .logo-circle {
+    height: 100px; /* Slightly smaller height */
+    width: 100px; /* Slightly smaller width */
+  }
+  .logo-img {
+    width: 80%; /* Make the logo even smaller */
+  }
+}
+
 @media (max-width: 992px) {
-  .logo-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for medium screens */
+  .logo-circle {
+    height: 80px; /* Further reduce height */
+    width: 80px; /* Further reduce width */
+  }
+  .logo-img {
+    width: 80%; /* Further reduce logo size */
+  }
+  .logo-description {
+    font-size: 1em; /* Reduce font size */
   }
 }
 
 @media (max-width: 768px) {
-  .logo-grid {
-    grid-template-columns: repeat(1, 1fr); /* 1 column for small screens */
+  .logo-circle {
+    height: 70px; /* Even smaller height */
+    width: 70px; /* Even smaller width */
+  }
+  .logo-img {
+    width: 80%; /* Make the logo very small */
+  }
+  .logo-description {
+    font-size: 1em; /* Smaller font size */
   }
 }
 /* Resume */
