@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.4022c11b.chunk.css",
-    "main.js": "/myportfolio/static/js/main.15b01f27.chunk.js",
-    "main.js.map": "/myportfolio/static/js/main.15b01f27.chunk.js.map",
+    "main.css": "/myportfolio/static/css/main.5e07c1d6.chunk.css",
+    "main.js": "/myportfolio/static/js/main.cb45018d.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.cb45018d.chunk.js.map",
     "runtime-main.js": "/myportfolio/static/js/runtime-main.b9f45630.js",
     "runtime-main.js.map": "/myportfolio/static/js/runtime-main.b9f45630.js.map",
     "static/css/2.44d809a4.chunk.css": "/myportfolio/static/css/2.44d809a4.chunk.css",
@@ -10,22 +10,19 @@
     "static/js/2.e016abdd.chunk.js.map": "/myportfolio/static/js/2.e016abdd.chunk.js.map",
     "index.html": "/myportfolio/index.html",
     "static/css/2.44d809a4.chunk.css.map": "/myportfolio/static/css/2.44d809a4.chunk.css.map",
-    "static/css/main.4022c11b.chunk.css.map": "/myportfolio/static/css/main.4022c11b.chunk.css.map",
+    "static/css/main.5e07c1d6.chunk.css.map": "/myportfolio/static/css/main.5e07c1d6.chunk.css.map",
     "static/js/2.e016abdd.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.e016abdd.chunk.js.LICENSE.txt",
     "static/media/Alice_Resende_CV.c3d07d89.pdf": "/myportfolio/static/media/Alice_Resende_CV.c3d07d89.pdf",
-    "static/media/cosmos.19ad0934.jpg": "/myportfolio/static/media/cosmos.19ad0934.jpg",
-    "static/media/dropship.b52fa0a1.jpg": "/myportfolio/static/media/dropship.b52fa0a1.jpg",
-    "static/media/goodFoodDiscounts.9b9dd889.png": "/myportfolio/static/media/goodFoodDiscounts.9b9dd889.png",
-    "static/media/hsp.40c6e624.png": "/myportfolio/static/media/hsp.40c6e624.png",
-    "static/media/myFunImg.46b6c892.jpg": "/myportfolio/static/media/myFunImg.46b6c892.jpg",
-    "static/media/techspec.3b34aad0.png": "/myportfolio/static/media/techspec.3b34aad0.png",
-    "static/media/travelwell.772033dc.png": "/myportfolio/static/media/travelwell.772033dc.png"
+    "static/media/ECourse.c79291d8.webp": "/myportfolio/static/media/ECourse.c79291d8.webp",
+    "static/media/FarmApp.30cdb8a2.webp": "/myportfolio/static/media/FarmApp.30cdb8a2.webp",
+    "static/media/RobotGO.9ca26a59.webp": "/myportfolio/static/media/RobotGO.9ca26a59.webp",
+    "static/media/myFunImg.46b6c892.jpg": "/myportfolio/static/media/myFunImg.46b6c892.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b9f45630.js",
     "static/css/2.44d809a4.chunk.css",
     "static/js/2.e016abdd.chunk.js",
-    "static/css/main.4022c11b.chunk.css",
-    "static/js/main.15b01f27.chunk.js"
+    "static/css/main.5e07c1d6.chunk.css",
+    "static/js/main.cb45018d.chunk.js"
   ]
 }
