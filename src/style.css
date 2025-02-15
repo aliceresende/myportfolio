@@ -612,126 +612,121 @@ html {
   background-image: var(--section-background-color) !important;
   color: #414141 !important;
 }
-/* Page Container for Vertical Centering */
+
 .page-container {
-  display: flex; /* Enable flexbox */
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-  min-height: 100vh; /* Full viewport height */
-  background-color: #f9f9f9; /* Optional: Background color */
-  padding: 20px; /* Add some padding */
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  min-height: 100vh;
+  background-color: #f9f9f9; 
+  padding: 20px; 
 }
 
-/* Content Container */
 .content-container {
-  width: 100%; /* Full width */
-  max-width: 1200px; /* Limit maximum width */
+  width: 100%; 
+  max-width: 1200px; 
   background-color: #f9f9f9;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0); /* Subtle shadow */
-  border-radius: 12px; /* Rounded corners */
-  overflow: hidden; /* Ensure no overflow issues */
-  padding: 20px; /* Add padding inside the container */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0); 
+  border-radius: 12px; 
+  overflow: hidden; 
+  padding: 20px; 
 }
 
-/* Title Styling */
 .skills-title {
   color: #414141 !important;
 }
 
-/* Skills Card Styling */
 .skills-card {
-  width: 100%; /* Full width */
-  margin-top: 20px; /* Space between title and card */
+  width: 100%; 
+  margin-top: 20px; 
 }
 
 .skills {
   margin-top: 20px;
   background-color: #f9f9f9;
   padding: 20px;
-  height: auto; /* Adjust height to fit content */
+  height: auto; 
   width: 100%;
 }
 
 .skills-container {
   display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
-  gap: 30px; /* Space between card and logo grid */
-  width: 100%; /* Full width */
-  max-width: 1200px; /* Optional: Limit maximum width for larger screens */
-  margin: 0 auto; /* Center the container */
+  flex-direction: column; 
+  align-items: center; 
+  gap: 30px; 
+  width: 100%; 
+  max-width: 1200px; 
+  margin: 0 auto; 
 }
 
-/* Grid container for the logos */
 .logo-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: 70px; /* Space between circles */
-  justify-items: center; /* Center items in their grid cells */
-  align-items: start; /* Align items at the top */
-  width: 100%; /* Full width */
-  padding: 0 10px; /* Add some padding for smaller screens */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 70px; 
+  justify-items: center; 
+  align-items: start; 
+  width: 100%; 
+  padding: 0 10px; 
 }
 
-/* Circle container */
 .logo-circle {
-  display: flex; /* Use flexbox for vertical centering */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
-  justify-content: center; /* Center items vertically */
-  text-align: center; /* Center the content inside the circle */
-  height: 120px; /* Fixed height for all logo circles */
-  width: 120px; /* Fixed width for all logo circles */
-  margin-bottom: 10px; /* Space between circle and description */
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+  height: 100px; 
+  width: 100px;
+  margin-bottom: 10px; 
 }
 
-/* Image inside the circle */
 .logo-img {
-  width: 80%; /* Adjust the size of the logo inside the circle */
-  height: auto; /* Maintain aspect ratio */
-  margin-bottom: 5px; /* Add space between logo and description */
+  width: 70%; 
+  height: auto; 
+  margin-bottom: 5px; 
 }
-/* Description below the logo */
+
 .logo-description {
   padding-top: 10px;
   font-size: 1.2em;
-  color: #414141; /* Purple color for the description */
-  text-align: center; /* Center the description */
+  color: #414141; 
+  text-align: center; 
 }
-/* Responsive Design for Smaller Screens */
+
 @media (max-width: 1200px) {
   .logo-circle {
-    height: 100px; /* Slightly smaller height */
-    width: 100px; /* Slightly smaller width */
+    height: 100px; 
+    width: 100px; 
   }
   .logo-img {
-    width: 80%; /* Make the logo even smaller */
+    width: 80%; 
   }
 }
 
 @media (max-width: 992px) {
   .logo-circle {
-    height: 80px; /* Further reduce height */
-    width: 80px; /* Further reduce width */
+    height: 80px; 
+    width: 80px; 
   }
   .logo-img {
-    width: 80%; /* Further reduce logo size */
+    width: 80%; 
   }
   .logo-description {
-    font-size: 1em; /* Reduce font size */
+    font-size: 1em; 
   }
 }
 
 @media (max-width: 768px) {
   .logo-circle {
-    height: 70px; /* Even smaller height */
-    width: 70px; /* Even smaller width */
+  
+    height: min(50px, 10vw); 
+    width: min(50px, 10vw);
   }
   .logo-img {
-    width: 80%; /* Make the logo very small */
+    width: 70%; 
   }
   .logo-description {
-    font-size: 1em; /* Smaller font size */
+    font-size: 0.9em; 
   }
 }
 /* Resume */

@@ -10,8 +10,8 @@ function Projects() {
         <h1 className="project-heading">
            <strong className="purple">Projects</strong>
         </h1>
-        <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+        <p style={{ color: "gray" }}>
+          Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {PROJECTS.map((project, index) => (
