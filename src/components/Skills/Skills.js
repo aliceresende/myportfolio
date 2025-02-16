@@ -21,12 +21,14 @@ function Skills() {
               <h1
                 style={{
                   fontSize: "2.3em",
-                  marginBottom: "55px",
                   color: "#6c5ce7", // Cor personalizada para o título
                 }}
               >
                 <strong className="skills-title">Skills</strong>
               </h1>
+              <p className="skills-description">
+              Some of my hard skills.
+          </p>
               <SkillsCard />
             </Col>
           </Row>

@@ -516,7 +516,7 @@ html {
 }
 
 .project-card {
-  padding-top: 50px !important;
+  padding-top: 25px !important;
   padding-bottom: 50px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
@@ -642,7 +642,7 @@ html {
 }
 
 .skills {
-  margin-top: 20px;
+  margin-top: 50px;
   background-color: #f9f9f9;
   padding: 20px;
   height: auto; 
@@ -658,26 +658,32 @@ html {
   max-width: 1200px; 
   margin: 0 auto; 
 }
+.skills-description{
+  margin-top: 15px;
+  color:gray;
+}
 
 .logo-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 70px; 
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Adjusts columns dynamically */
+  gap: 30px; /* Reduced gap for better spacing */
   justify-items: center; 
-  align-items: start; 
-  width: 100%; 
-  padding: 0 10px; 
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+  max-width: 800px; /* Restricts grid width for better centering */
+  margin: 0 auto; /* Centers the grid */
 }
 
 .logo-circle {
   display: flex;
-  flex-direction: column; 
-  align-items: center; 
-  justify-content: center; 
-  text-align: center; 
-  height: 100px; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100px;
   width: 100px;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .logo-img {
@@ -693,42 +699,20 @@ html {
   text-align: center; 
 }
 
-@media (max-width: 1200px) {
-  .logo-circle {
-    height: 100px; 
-    width: 100px; 
-  }
-  .logo-img {
-    width: 80%; 
-  }
-}
-
-@media (max-width: 992px) {
-  .logo-circle {
-    height: 80px; 
-    width: 80px; 
-  }
-  .logo-img {
-    width: 80%; 
-  }
-  .logo-description {
-    font-size: 1em; 
-  }
-}
 
 @media (max-width: 768px) {
-  .logo-circle {
-  
-    height: min(50px, 10vw); 
-    width: min(50px, 10vw);
+  .logo-grid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 2fr)); /* Adjusts for smaller screens */
+    gap: 30px;
   }
-  .logo-img {
-    width: 70%; 
-  }
-  .logo-description {
-    font-size: 0.9em; 
-  }
+
+.logo-img {
+  width: 40%; 
 }
+
+}
+
+
 /* Resume */
 .download-button {
   background-color: #53606c !important;
